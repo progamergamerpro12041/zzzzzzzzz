@@ -71,4 +71,6 @@ RunService:BindToRenderStep("AimLock", 0, function()
   if msg == "/e q" then
   DaHoodSettings.SilentAim = false
   DaHoodSettings.AimLock = false
-  end
+        end
+    end)
+end)
